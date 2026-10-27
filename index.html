@@ -760,12 +760,12 @@
             if (savedConfig) {
                 try {
                     const cfg = JSON.parse(savedConfig);
-                    document.getElementById('cfg-apikey').value = cfg.apiKey || '';
-                    document.getElementById('cfg-authdomain').value = cfg.authDomain || '';
-                    document.getElementById('cfg-projectid').value = cfg.projectId || '';
-                    document.getElementById('cfg-storagebucket').value = cfg.storageBucket || '';
-                    document.getElementById('cfg-senderid').value = cfg.messagingSenderId || '';
-                    document.getElementById('cfg-appid').value = cfg.appId || '';
+                    document.getElementById('cfg-apikey').value = cfg.apiKey || 'AIzaSyDPOEh8GI_e_MS6e72PNGohREXt-G_-oeA';
+                    document.getElementById('cfg-authdomain').value = cfg.authDomain || 'truthorshot-1a27b.firebaseapp.com';
+                    document.getElementById('cfg-projectid').value = cfg.projectId || 'truthorshot-1a27b';
+                    document.getElementById('cfg-storagebucket').value = cfg.storageBucket || 'truthorshot-1a27b.firebasestorage.app';
+                    document.getElementById('cfg-senderid').value = cfg.messagingSenderId || '545181320592';
+                    document.getElementById('cfg-appid').value = cfg.appId || '1:545181320592:web:3600294cee39e1486b1f15';
                 } catch(e){}
             }
             loadVictimsFromDatabase();
